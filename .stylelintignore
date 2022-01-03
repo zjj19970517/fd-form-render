@@ -1,0 +1,3 @@
+packages/**/dist/**
+modules/**/dist/**
+web/assets/style/normalize.pcss

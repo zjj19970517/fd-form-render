@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxFactory": "VueTsxSupport",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "module": "commonjs",
+    "target": "es2021",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+  },
+  "include": [
+    "packages/**/*",
+    "typings/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

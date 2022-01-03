@@ -1,0 +1,26 @@
+{
+  "name": "@meils/form-render-element",
+  "version": "0.0.1",
+  "description": "Form Render of Element2",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js"
+  },
+  "types": "src/index.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "types/**/*"
+  ],
+  "author": "zhangjinjie@luojilab.com",
+  "license": "ISC",
+  "peerDependencies": {
+    "@meils/form-render-core": "^0.0.1"
+  },
+  "devDependencies": {
+    "@meils/form-render-core": "^0.0.1"
+  }
+}

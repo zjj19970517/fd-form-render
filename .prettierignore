@@ -1,0 +1,8 @@
+node_modules/**
+public/dist/**
+app/view/**
+packages/**/dist/**
+modules/**/dist/**
+.eslintrc.js
+**/*.config.js
+**/dist/**
